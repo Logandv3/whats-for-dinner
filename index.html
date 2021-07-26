@@ -10,14 +10,26 @@
     </nav>
     <section class='main-area'>
       <section class='selection-box'>
-        <input class='radio-btn' type='radio' value='Side'>
-        <input class='radio-btn' type='radio' value='Main Dish'>
-        <input class='radio-btn' type='radio' value='Dessert'>
-        <input class='radio-btn' type='radio' value='Entire Meal'>
+        <div class='radio-buttons'>
+          <label>
+            <input id='side' type='radio' name='dish-radio' value='Side'>Side
+          </label>
+          <label>
+            <input id='main-dish' type='radio' name='dish-radio' value='Main Dish'>Main Dish
+          </label>
+          <label>
+            <input id='dessert' type='radio' name='dish-radio' value='Dessert'>Dessert
+          </label>
+          <label>
+            <input id='entire-meal' type='radio' name='dish-radio' value='Entire Meal'>Entire Meal
+          </label>
         <button id='lets-cook'>Let's Cook!</button>
+      </div>
       </section>
       <section class='recipe-box'>
-        <image src = '/Users/loganvincent/turing/mod-1/whats-for-dinner/assets/cookpot.svg' alt='cooking pot'>
+        <div id='recipe'>
+          <image  class='cookpot' src='/Users/loganvincent/turing/mod-1/whats-for-dinner/assets/cookpot.svg' alt='cooking pot'>
+        </div>
       </section>
     </section>
   </body>
